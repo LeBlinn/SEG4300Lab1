@@ -1,0 +1,18 @@
+services:
+  flask:
+    container_name: flask
+    build: .
+    ports:
+      - 5000:5000
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - 7000:7000
+    volumes:
+      - ./default.conf:/etc/nginx/conf/
+    restart: always
+    depends_on:
+      - flask
