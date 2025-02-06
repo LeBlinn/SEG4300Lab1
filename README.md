@@ -14,6 +14,8 @@ Method 2:
 docker run -p 5000:5000 blinn/prosusai-finbert:latest
 ```
 
+## Test command
+
 Use curl to test website function
 ```bash
 curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"text": "hello world"}'
