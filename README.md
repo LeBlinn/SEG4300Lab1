@@ -2,6 +2,17 @@
 [Docker Hub Image](https://hub.docker.com/repository/docker/blinn/prosusai-finbert/general) \
 A flask endpoint to access the finbert ai model.
 
+## Instructions to get the container running
+Method 1:
+```bash
+docker compose up
+```
+or
+
+Method 2:
+```bash
+docker run -p 5000:5000 blinn/prosusai-finbert:latest
+```
 
 Use curl to test website function
 ```bash
