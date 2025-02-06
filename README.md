@@ -1,5 +1,5 @@
 # ProsusAI / finbert
-[Docker Hub Image](https://hub.docker.com/repository/docker/blinn/prosusai-finbert/general)
+[Docker Hub Image](https://hub.docker.com/repository/docker/blinn/prosusai-finbert/general) \
 A flask endpoint to access the finbert ai model.
 
 
